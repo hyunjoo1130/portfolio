@@ -6,9 +6,9 @@ function Header() {
 		<HeaderContainer>
 			<HeaderWrapper>
 				<div className="updateDate">
-					<p style={{ opacity: 0.3, fontSize: 18 }}>Latest updated 2023 / 06 / 17</p>
+					<p style={{ opacity: 0.3, fontSize: 18 }}>Latest updated 2023 / 06 / 19</p>
 				</div>
-				<div className="tabBox" style={{ display: 'flex', gap: 45, fontSize: 24 }}>
+				<div className="tabBox" style={{ display: 'flex', gap: 52, fontSize: 24 }}>
 					<span style={{ fontWeight: 700 }}>Profile</span>
 					<span>Portfolio</span>
 				</div>

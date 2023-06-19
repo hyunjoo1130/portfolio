@@ -11,3 +11,19 @@ body {
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.black_bg_color {
+	background-color: #232323;
+}
+
+.black_txt_color {
+	color: #232323;
+}
+
+.white_txt_color {
+	color: #f1f1f1;
+}
+
+.default_padding {
+	padding: 0 200px;
+}

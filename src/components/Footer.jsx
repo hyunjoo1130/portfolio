@@ -7,9 +7,9 @@ function Footer() {
 			<FooterWrapper>
 				<div className="leftBox">
 					<div>
-						<p style={{ fontSize: 24, fontWeight: 700 }}>OH HYUN JOO PORTFOLIO</p>
+						<p style={{ fontSize: 24, fontWeight: 700, marginBottom: 3 }}>OH HYUN JOO PORTFOLIO</p>
 						<p style={{ fontSize: 24, fontWeight: 400 }}>Front-end Developer</p>
-						<p style={{ marginTop: 40 }}>쓸모있는 기술과 가치로 사람과, 세상과 연결되자</p>
+						<p style={{ marginTop: 50 }}>쓸모있는 기술과 가치로 사람과, 세상과 연결되자</p>
 					</div>
 				</div>
 				<RightBox>
@@ -35,7 +35,8 @@ function Footer() {
 }
 
 const FooterContainer = styled.footer`
-	padding: 50px 200px;
+	margin-top: 60px;
+	padding: 70px 200px;
 	background-color: #232323;
 	color: #f1f1f1;
 `;
