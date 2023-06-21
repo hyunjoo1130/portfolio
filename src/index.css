@@ -27,3 +27,15 @@ code {
 .default_padding {
 	padding: 0 200px;
 }
+
+h1 {
+	font-size: 46px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 32px;
+}

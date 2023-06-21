@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import Profile from './pages/Profile/Profile';
+import Portfolio from './pages/Portfolio/Portfolio';
 
 const router = createBrowserRouter([
 	{
@@ -9,7 +10,7 @@ const router = createBrowserRouter([
 		// errorElement:,
 		children: [
 			{ index: true, element: <Profile /> },
-			// { index: '/', element: <Profile /> },
+			{ path: '/portfolio', element: <Portfolio /> },
 			// { path: '/login', element: <Login /> },
 		],
 	},

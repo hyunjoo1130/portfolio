@@ -47,7 +47,7 @@ function Profile() {
 					</div>
 					<hr style={{ width: 300, color: '#232323', opacity: 0.3, margin: '0 auto' }} />
 					<div className="pr_container">
-						<h3 className="pr_title">🌐 저는 세상의 흐름을 읽을 줄 아는 개발자가 되고 싶습니다.</h3>
+						<p className="pr_title">🌐 저는 세상의 흐름을 읽을 줄 아는 개발자가 되고 싶습니다.</p>
 						<div className="pr_txt pr_txt1">
 							<p>기술이 시대와 트렌드를 따라 성장하고 변화하는 것을 느낍니다.</p>
 							<p>
