@@ -1,0 +1,80 @@
+#Profile .profile_section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+#Profile .profile_section1 .profile_imgbox {
+  width: 280px;
+  height: 280px;
+  border: 10px solid #dddad3;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#Profile .profile_section1 .profile_imgbox .profile_img {
+  height: 100%;
+}
+#Profile .profile_section1 .profile_txtbox {
+  text-align: center;
+}
+#Profile .profile_section1 .profile_txtbox .profile_txt {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+#Profile .profile_section2 .profile_section2_wrapper .info_container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+#Profile .profile_section2 .profile_section2_wrapper .info_container .titlebox .title {
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+#Profile .profile_section2 .profile_section2_wrapper .info_container .infobox {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  padding-top: 14px;
+  font-size: 24px;
+}
+#Profile .profile_section2 .profile_section2_wrapper .info_container .infobox .info_block {
+  display: flex;
+  margin-bottom: 25px;
+}
+#Profile .profile_section2 .profile_section2_wrapper .info_container .infobox .info_block .info_q {
+  width: 110px;
+  font-weight: 700;
+}
+#Profile .profile_section2 .profile_section2_wrapper .info_container .infobox .info_block .info_r {
+  font-weight: 500;
+}
+#Profile .profile_section2 .profile_section2_wrapper .info_container .infobox .info_block .email_r_box .email_r {
+  margin-bottom: 8px;
+}
+#Profile .profile_section2 .profile_section2_wrapper .pr_container {
+  margin-left: 10px;
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+#Profile .profile_section2 .profile_section2_wrapper .pr_container .pr_title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+#Profile .profile_section2 .profile_section2_wrapper .pr_container .pr_txt {
+  font-size: 24px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+#Profile .profile_section2 .profile_section2_wrapper .pr_container .pr_txt1 {
+  margin-bottom: 30px;
+}
+#Profile .profile_section2 .profile_section2_wrapper .pr_container .pr_txt1 p {
+  margin-bottom: 10px;
+}
+#Profile .profile_section2 .profile_section2_wrapper .pr_container .pr_txt2 p {
+  margin-bottom: 7px;
+}/*# sourceMappingURL=Profile.css.map */

@@ -1,31 +1,36 @@
 #Portfolio {
 	margin: 0 50px;
-	padding-top: 100px;
+	padding-top: 150px;
 	padding-bottom: 50px;
 
 	.portfolio_section1 {
-		.work_article {
-			.title {
-				margin-bottom: 80px;
-			}
+		.article {
+			.wrapper {
+				padding: 0 70px 200px;
 
-			.work_wrapper {
-				padding: 0 50px;
-
-				.work_title_box {
-					margin-bottom: 40px;
+				.title_box {
+					margin: 10px auto;
+					text-align: center;
 				}
 
-				.work_list_container {
-					.work_list_block {
+				.underline {
+					width: 200px;
+					margin: 0 auto 60px;
+					border: 1px solid #232323;
+					opacity: 0.1;
+				}
+
+				.list_container {
+					.list_block {
 						display: flex;
 						justify-content: flex-start;
 						padding: 30px;
 
-						.company_info {
+						.list_info {
 							display: flex;
 							flex-direction: column;
 							gap: 2px;
+							width: 300px;
 
 							.info_name {
 								margin-bottom: 4px;
@@ -48,8 +53,7 @@
 							}
 						}
 
-						.company_idid {
-							padding-left: 100px;
+						.list_idid {
 							font-size: 18px;
 							font-weight: 400;
 

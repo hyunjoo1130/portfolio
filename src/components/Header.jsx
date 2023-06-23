@@ -5,6 +5,7 @@ import styled from 'styled-components';
 function Header() {
 	const navigate = useNavigate();
 	const [active, setActive] = useState('Profile');
+	const [hover, setHover] = useState(false);
 
 	const headerHandler = txt => {
 		setActive(txt);
@@ -13,8 +14,31 @@ function Header() {
 	return (
 		<HeaderContainer>
 			<HeaderWrapper>
-				<div className="updateDate">
-					<p style={{ opacity: 0.3, fontSize: 18 }}>Latest updated 2023 / 06 / 19</p>
+				<div className="updateDate" style={{ position: 'relative', cursor: 'pointer' }}>
+					<p
+						style={{ opacity: 0.3, fontSize: 18 }}
+						onMouseEnter={() => setHover(true)}
+						onMouseLeave={() => setHover(false)}
+					>
+						{hover ? 'Previous update 2023 / 06 / 19' : 'Latest updated 2023 / 06 / 23'}
+					</p>
+					{/* <p
+						style={{
+							position: 'absolute',
+							top: 27,
+							left: 10,
+							width: 250,
+							backgroundColor: '#eee',
+							fontSize: 16,
+							color: '#232323',
+							textAlign: 'center',
+							padding: '6px 10px',
+							borderRadius: 10,
+							opacity: hover ? 0.5 : 0,
+						}}
+					>
+						Previous update 2023 / 06 / 19
+					</p> */}
 				</div>
 				<div className="tabBox" style={{ display: 'flex', gap: 52, fontSize: 24 }}>
 					<span
@@ -56,14 +80,3 @@ const HeaderWrapper = styled.div`
 `;
 
 export default Header;
-
-const HEADER_DATA = [
-	{
-		id: 1,
-		title: 'Profile',
-	},
-	{
-		id: 2,
-		title: 'Portfolio',
-	},
-];
