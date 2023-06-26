@@ -74,5 +74,146 @@
 				}
 			}
 		}
+
+		.project {
+			.wrapper {
+				padding: 0;
+
+				.pj_container {
+					display: flex;
+					justify-content: space-between;
+					gap: 60px;
+					padding-top: 30px;
+
+					.pj_logoimg_box {
+						width: 30%;
+
+						.logo_img {
+							width: 90%;
+						}
+					}
+
+					// ==== 프로젝트 소개 ====
+					.pj_description_box {
+						width: 70%;
+						font-size: 18px;
+						line-height: 28px;
+
+						// 프로젝트 정보
+						.pj_infos {
+							display: flex;
+							flex-wrap: wrap;
+
+							.wid_block {
+								width: 300px;
+							}
+
+							.info_block {
+								margin-bottom: 35px;
+
+								.info_t {
+									color: #232323;
+									font-weight: 700;
+									margin-bottom: 10px;
+								}
+
+								.info_d {
+									font-weight: 400;
+								}
+							}
+						}
+
+						// 내가 구현한 기능 및 페이지
+						.pj_content {
+							.pj_underline {
+								margin: 20px auto 60px;
+								border: 1px solid #232323;
+								opacity: 0.1;
+							}
+
+							.pj_features {
+								.feature_box {
+									.feature_name {
+										font-size: 24px;
+										font-weight: 700;
+									}
+
+									.mypoint {
+										margin: 28px 0;
+
+										.point_title {
+											color: rgb(228, 16, 16);
+											font-weight: 700;
+										}
+
+										.point_desc {
+											font-weight: 700;
+										}
+									}
+
+									.feature_details {
+										margin-bottom: 20px;
+
+										.details_title {
+											font-weight: 700;
+											padding-bottom: 5px;
+										}
+
+										.details_listbox {
+											.details_list {
+											}
+										}
+
+										.details_imgbox {
+											width: 90%;
+											padding-top: 10px;
+
+											.details_img {
+												width: 100%;
+											}
+										}
+									}
+								}
+							}
+
+							.pj_videobox {
+								width: 90%;
+								height: 300px;
+
+								.video_title {
+									font-weight: 700;
+									padding-bottom: 10px;
+								}
+
+								.pj_video {
+									width: 100%;
+									height: 100%;
+								}
+							}
+
+							.linkbox {
+								padding: 70px 0 40px;
+
+								.link_title {
+									font-weight: 700;
+									padding-bottom: 10px;
+									padding-right: 8px;
+								}
+
+								.links {
+									display: inline-block;
+									.link {
+										margin-left: 12px;
+										font-size: 16px;
+										color: #f96400;
+										text-decoration: underline;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }
