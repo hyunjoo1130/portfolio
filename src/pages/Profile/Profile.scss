@@ -4,12 +4,12 @@
 		flex-direction: column;
 		align-items: center;
 		gap: 38px;
-		padding-top: 60px;
-		padding-bottom: 80px;
+		padding-top: 40px;
+		padding-bottom: 75px;
 
 		.profile_imgbox {
-			width: 280px;
-			height: 280px;
+			width: 270px;
+			height: 270px;
 			border: 10px solid #dddad3;
 			border-radius: 50%;
 			overflow: hidden;
@@ -24,18 +24,21 @@
 
 			.profile_txt {
 				font-weight: 700;
-				margin-bottom: 10px;
+				margin-bottom: 7px;
 			}
 		}
 	}
 
 	.profile_section2 {
 		.profile_section2_wrapper {
+			padding-left: 80px;
+			padding-right: 80px;
+
 			.info_container {
 				display: flex;
 				justify-content: space-between;
-				padding-top: 100px;
-				padding-bottom: 70px;
+				padding-top: 80px;
+				padding-bottom: 60px;
 
 				.titlebox {
 					.title {
@@ -48,15 +51,15 @@
 					display: flex;
 					justify-content: space-between;
 					gap: 80px;
+					font-size: 20px;
 					padding-top: 14px;
-					font-size: 24px;
 
 					.info_block {
 						display: flex;
 						margin-bottom: 25px;
 
 						.info_q {
-							width: 110px;
+							width: 100px;
 							font-weight: 700;
 						}
 
@@ -79,19 +82,19 @@
 				padding-bottom: 70px;
 
 				.pr_title {
-					font-size: 30px;
+					font-size: 24px;
 					font-weight: 700;
-					margin-bottom: 50px;
+					margin-bottom: 40px;
 				}
 
 				.pr_txt {
-					font-size: 24px;
+					font-size: 20px;
 					font-weight: 500;
 					opacity: 0.9;
 				}
 
 				.pr_txt1 {
-					margin-bottom: 30px;
+					margin-bottom: 25px;
 
 					p {
 						margin-bottom: 10px;

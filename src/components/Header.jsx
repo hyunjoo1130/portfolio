@@ -20,30 +20,13 @@ function Header() {
 						onMouseEnter={() => setHover(true)}
 						onMouseLeave={() => setHover(false)}
 					>
-						{hover ? 'Previous update 2023 / 06 / 19' : 'Latest updated 2023 / 06 / 23'}
+						{hover ? 'Previous update 2023 / 06 / 23' : 'Latest updated 2023 / 06 / 29'}
 					</p>
-					{/* <p
-						style={{
-							position: 'absolute',
-							top: 27,
-							left: 10,
-							width: 250,
-							backgroundColor: '#eee',
-							fontSize: 16,
-							color: '#232323',
-							textAlign: 'center',
-							padding: '6px 10px',
-							borderRadius: 10,
-							opacity: hover ? 0.5 : 0,
-						}}
-					>
-						Previous update 2023 / 06 / 19
-					</p> */}
 				</div>
 				<div className="tabBox" style={{ display: 'flex', gap: 52, fontSize: 24 }}>
 					<span
 						title="Profile"
-						style={{ fontWeight: active === 'Profile' ? 700 : 500, cursor: 'pointer' }}
+						style={{ fontWeight: active === 'Profile' ? 700 : 400, cursor: 'pointer' }}
 						onClick={() => {
 							headerHandler('Profile');
 							navigate('/');
@@ -53,7 +36,7 @@ function Header() {
 					</span>
 					<span
 						title="Portfolio"
-						style={{ fontWeight: active === 'Portfolio' ? 700 : 500, cursor: 'pointer' }}
+						style={{ fontWeight: active === 'Portfolio' ? 700 : 400, cursor: 'pointer' }}
 						onClick={() => {
 							headerHandler('Portfolio');
 							navigate('/portfolio');
@@ -68,7 +51,7 @@ function Header() {
 }
 
 const HeaderContainer = styled.header`
-	padding: 25px 200px;
+	padding: 22px 200px;
 	background-color: #232323;
 	color: #f1f1f1;
 `;

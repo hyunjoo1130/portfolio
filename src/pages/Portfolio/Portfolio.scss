@@ -1,9 +1,9 @@
 #Portfolio {
 	margin: 0 50px;
-	padding-top: 150px;
-	padding-bottom: 50px;
+	padding-top: 120px;
+	padding-bottom: 60px;
 
-	.portfolio_section1 {
+	.section {
 		.article {
 			.wrapper {
 				padding: 0 70px 200px;
@@ -64,9 +64,19 @@
 								display: flex;
 
 								.skills_txt {
-									width: 20%;
-									margin-right: 15px;
+									margin-right: 16px;
 									font-weight: 700;
+								}
+
+								.skills_list {
+									.next_line {
+										display: inline-block;
+										margin-top: 3px;
+									}
+								}
+
+								.pj_skills_txt {
+									width: 18%;
 								}
 							}
 						}

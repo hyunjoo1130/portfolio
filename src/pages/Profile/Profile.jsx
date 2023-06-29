@@ -9,15 +9,15 @@ function Profile() {
 					<img className="profile_img" src="/images/profile/hj.png" alt="프로필 이미지" />
 				</div>
 				<div className="profile_txtbox white_txt_color">
-					<h1 className="profile_txt">안녕하세요!</h1>
-					<h1 className="profile_txt">주니어 프론트엔드 개발자 오현주입니다.</h1>
+					<h2 className="profile_txt">안녕하세요!</h2>
+					<h2 className="profile_txt">주니어 프론트엔드 개발자 오현주입니다.</h2>
 				</div>
 			</section>
 			<section className="profile_section2 black_txt_color default_padding">
 				<div className="profile_section2_wrapper">
 					<div className="info_container">
 						<div className="titlebox">
-							<h2 className="title">Profile</h2>
+							<h3 className="title">Profile</h3>
 						</div>
 						<div className="infobox">
 							<div className="info_block_left">
