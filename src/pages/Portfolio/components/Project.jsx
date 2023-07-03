@@ -127,7 +127,7 @@ function Project() {
 							</div>
 							<div className="pj_videobox">
 								<p className="video_title">🖥️ 완성 영상</p>
-								<embed type="video/webm" src="/media/signin.mp4" className="pj_video" />
+								<video src="/media/signin.mp4" controls className="pj_video" />
 							</div>
 							<div className="linkbox">
 								<span className="link_title">🔗 링크</span>
@@ -261,7 +261,7 @@ function Project() {
 							</div>
 							<div className="pj_videobox">
 								<p className="video_title">🖥️ 완성 영상</p>
-								<embed type="video/webm" src="/media/login.mp4" className="pj_video" />
+								<video src="/media/login.mp4" controls className="pj_video" />
 							</div>
 							<div className="linkbox">
 								<span className="link_title">🔗 링크</span>
@@ -374,7 +374,7 @@ function Project() {
 							</div>
 							<div className="pj_videobox">
 								<p className="video_title">🖥️ 완성 영상</p>
-								<embed type="video/webm" src="/media/blogMain.mp4" className="pj_video" />
+								<video src="/media/blogMain.mp4" controls className="pj_video" />
 							</div>
 							<div className="linkbox">
 								<span className="link_title">🔗 링크</span>
@@ -432,7 +432,7 @@ function Project() {
 							</div>
 							<div className="pj_videobox">
 								<p className="video_title">🖥️ 완성 영상</p>
-								<embed type="video/webm" src="/media/search.mp4" className="pj_video" />
+								<video src="/media/search.mp4" controls className="pj_video" />
 							</div>
 							<div className="linkbox">
 								<span className="link_title">🔗 링크</span>
