@@ -10,7 +10,8 @@ function Profile() {
 				</div>
 				<div className="profile_txtbox white_txt_color">
 					<h2 className="profile_txt">안녕하세요!</h2>
-					<h2 className="profile_txt">주니어 프론트엔드 개발자 오현주입니다.</h2>
+					<h2 className="profile_txt">주니어 프론트엔드 개발자</h2>
+					<h2 className="profile_txt">오현주입니다.</h2>
 				</div>
 			</section>
 			<section className="profile_section2 black_txt_color default_padding">
@@ -47,28 +48,32 @@ function Profile() {
 					</div>
 					<hr style={{ width: 300, color: '#232323', opacity: 0.3, margin: '0 auto' }} />
 					<div className="pr_container">
-						<p className="pr_title">🌐 저는 세상의 흐름을 읽을 줄 아는 개발자가 되고 싶습니다.</p>
+						<p className="pr_title">👤 저는 사람을 향할 줄 아는 개발자가 되고 싶습니다.</p>
 						<div className="pr_txt pr_txt1">
 							<p>기술이 시대와 트렌드를 따라 성장하고 변화하는 것을 느낍니다.</p>
 							<p>
-								저는 ’개발’이라는 기술을 통해, 세상의 흐름을 느끼고, 그것에 발맞추며 무한히 성장하고
-								싶습니다.
+								웹 디자이너로 2년 2개월간의 커리어를 종료하고, 프론트엔드 개발자로 전향하였습니다.
 							</p>
 							<p>
-								그리하여, 조금 더 넓은 시야와 다양한 가능성을 가진 개발자가 되어가는 것이 저의
-								꿈입니다.
+								저는 디자인보다 ’개발’이라는 기술을 통해, 사람들의 실질적인 결핍과 필요에 접근하고
+								싶었습니다.
+							</p>
+							<p>
+								개발자는 UI/UX와 밀접한만큼 트렌드에 민감하고 세상의 흐름을 읽을 줄 알아야 한다고
+								생각합니다.
+							</p>
+							<p>
+								디자인 경력을 통해, 디자이너와의 소통에 있어 높은 이해력과 유연한 사고로 협업이
+								가능합니다.
 							</p>
 						</div>
 						<div className="pr_txt pr_txt2">
-							<p>트렌드와 가까운 직업인, 웹 디자이너로 일했습니다.</p>
+							<p>모든 서비스나 기술의 도달점은 사람입니다.</p>
+							<p>편리를 너머 사회를 구성하는 사람들의 삶이 가치다운 가치를 회복할 수 있도록,</p>
 							<p>
-								디자이닝을 넘어 디자인에 기능과 역동성을 추가하며 소비자와 소통하고 싶어, 개발자로
-								전향하였습니다.
+								<strong>'필요'</strong>가 있는 곳에 가치있게 소모되는 개발자가 되고 싶습니다.
 							</p>
-							<p>
-								혼자 일하기보다, 함께 고민하며 헤쳐나가는 협업을 더 즐거워하는 외향적인 성격을
-								가지고 있습니다.
-							</p>
+							<p>그러기 위하여 그에 마땅한 기술력과 통찰력을 키우기 위해 정진하고 있습니다.</p>
 						</div>
 					</div>
 				</div>

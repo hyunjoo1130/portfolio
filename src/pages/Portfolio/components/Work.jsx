@@ -35,7 +35,11 @@ function Work() {
 						<div className="list_idid">
 							<div className="idid">
 								<p className="details">
-									메인페이지 웹 퍼블리싱<a href="https://scordi.io/landing2"> 🔗</a>
+									메인페이지 웹 퍼블리싱
+									<a href="https://scordi.io/landing2" target="_blank" rel="noreferrer">
+										{' '}
+										🔗
+									</a>
 								</p>
 								<p className="details">반응형 구현</p>
 							</div>

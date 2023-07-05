@@ -5,11 +5,14 @@
   gap: 38px;
   padding-top: 113px;
   padding-bottom: 75px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin: 0;
 }
 #Profile .profile_section1 .profile_imgbox {
-  width: 270px;
-  height: 270px;
-  border: 10px solid #dddad3;
+  width: 230px;
+  height: 230px;
+  border: 8px solid #dddad3;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -20,33 +23,50 @@
   text-align: center;
 }
 #Profile .profile_section1 .profile_txtbox .profile_txt {
+  font-size: 27px;
   font-weight: 700;
   margin-bottom: 7px;
 }
+@media (min-width: 450px) {
+  #Profile .profile_section1 {
+    padding-top: 120px;
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+  #Profile .profile_section1 .profile_imgbox {
+    width: 270px;
+    height: 270px;
+    border: 10px solid #dddad3;
+  }
+  #Profile .profile_section1 .profile_txtbox .profile_txt {
+    font-size: 40px;
+  }
+}
 #Profile .profile_section2 .profile_section2_wrapper {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 #Profile .profile_section2 .profile_section2_wrapper .info_container {
   display: flex;
-  justify-content: space-between;
-  padding-top: 80px;
-  padding-bottom: 60px;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
 #Profile .profile_section2 .profile_section2_wrapper .info_container .titlebox .title {
+  margin-bottom: 10px;
   font-weight: 700;
   letter-spacing: -1px;
 }
 #Profile .profile_section2 .profile_section2_wrapper .info_container .infobox {
   display: flex;
-  justify-content: space-between;
-  gap: 80px;
-  font-size: 20px;
+  flex-direction: column;
+  gap: 0px;
   padding-top: 14px;
+  font-size: 18px;
 }
 #Profile .profile_section2 .profile_section2_wrapper .info_container .infobox .info_block {
   display: flex;
-  margin-bottom: 25px;
+  margin-bottom: 16px;
 }
 #Profile .profile_section2 .profile_section2_wrapper .info_container .infobox .info_block .info_q {
   width: 100px;
@@ -54,22 +74,25 @@
 }
 #Profile .profile_section2 .profile_section2_wrapper .info_container .infobox .info_block .info_r {
   font-weight: 500;
+  font-size: 16px;
 }
 #Profile .profile_section2 .profile_section2_wrapper .info_container .infobox .info_block .email_r_box .email_r {
   margin-bottom: 8px;
 }
 #Profile .profile_section2 .profile_section2_wrapper .pr_container {
-  margin-left: 10px;
-  padding-top: 90px;
-  padding-bottom: 70px;
+  margin-left: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
 #Profile .profile_section2 .profile_section2_wrapper .pr_container .pr_title {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 #Profile .profile_section2 .profile_section2_wrapper .pr_container .pr_txt {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   opacity: 0.9;
 }
@@ -81,4 +104,46 @@
 }
 #Profile .profile_section2 .profile_section2_wrapper .pr_container .pr_txt2 p {
   margin-bottom: 7px;
+}
+@media (min-width: 450px) {
+  #Profile .profile_section2 .profile_section2_wrapper {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  #Profile .profile_section2 .profile_section2_wrapper .info_container {
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  #Profile .profile_section2 .profile_section2_wrapper .info_container .titlebox .title {
+    margin-bottom: 0;
+  }
+  #Profile .profile_section2 .profile_section2_wrapper .info_container .infobox {
+    justify-content: space-between;
+    gap: 80px;
+    font-size: 20px;
+  }
+  #Profile .profile_section2 .profile_section2_wrapper .info_container .infobox .info_block {
+    margin-bottom: 25px;
+  }
+  #Profile .profile_section2 .profile_section2_wrapper .info_container .infobox .info_block .info_q {
+    width: 80px;
+  }
+  #Profile .profile_section2 .profile_section2_wrapper .info_container .infobox .info_block .info_r {
+    font-size: 20px;
+  }
+  #Profile .profile_section2 .profile_section2_wrapper .pr_container {
+    margin-left: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 90px;
+    padding-bottom: 70px;
+  }
+  #Profile .profile_section2 .profile_section2_wrapper .pr_container .pr_title {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  #Profile .profile_section2 .profile_section2_wrapper .pr_container .pr_txt {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=Profile.css.map */
