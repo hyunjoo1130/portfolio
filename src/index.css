@@ -43,3 +43,9 @@ h3 {
 a {
 	color: #232323;
 }
+
+@media (max-width: 380px) {
+	.default_padding {
+		padding: 0 20px;
+	}
+}

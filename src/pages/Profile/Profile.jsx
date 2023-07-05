@@ -10,7 +10,8 @@ function Profile() {
 				</div>
 				<div className="profile_txtbox white_txt_color">
 					<h2 className="profile_txt">안녕하세요!</h2>
-					<h2 className="profile_txt">주니어 프론트엔드 개발자 오현주입니다.</h2>
+					<h2 className="profile_txt">주니어 프론트엔드 개발자</h2>
+					<h2 className="profile_txt">오현주입니다.</h2>
 				</div>
 			</section>
 			<section className="profile_section2 black_txt_color default_padding">
