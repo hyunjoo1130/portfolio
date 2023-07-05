@@ -51,6 +51,10 @@ function Header() {
 }
 
 const HeaderContainer = styled.header`
+	position: fixed;
+	top: 0;
+
+	width: 100%;
 	padding: 22px 200px;
 	background-color: #232323;
 	color: #f1f1f1;

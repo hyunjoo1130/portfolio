@@ -1,10 +1,10 @@
 #Portfolio {
   margin: 0 50px;
-  padding-top: 120px;
-  padding-bottom: 60px;
+  padding-top: 160px;
+  padding-bottom: 80px;
 }
 #Portfolio .section .article .wrapper {
-  padding: 0 70px 200px;
+  padding: 0 70px 160px;
 }
 #Portfolio .section .article .wrapper .title_box {
   margin: 10px auto;
