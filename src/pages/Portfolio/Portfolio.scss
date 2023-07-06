@@ -259,13 +259,13 @@
 @media (min-width: 450px) {
 	#Portfolio {
 		margin: 0 50px;
-		padding-top: 220px;
+		padding-top: 150px;
 		padding-bottom: 0;
 
 		.section {
 			.article {
 				.wrapper {
-					padding: 0 70px 120px;
+					padding-bottom: 80px;
 
 					.title_box {
 						.title {
@@ -275,13 +275,16 @@
 
 					.underline {
 						width: 200px;
-						margin: 0 auto 60px;
+						margin: 0 auto 50px;
 					}
 
 					.list_container {
 						.list_block {
-							gap: 0;
-							padding: 30px;
+							gap: 20px;
+							padding-top: 20px;
+							padding-bottom: 20px;
+							padding-left: 0;
+							padding-right: 0;
 
 							.list_info {
 								.info_name {
@@ -299,16 +302,18 @@
 								font-size: 18px;
 
 								.idid {
-									gap: 5px;
+									gap: 8px;
 									margin-bottom: 16px;
 								}
+
 								.skills {
 									.skills_txt {
 										margin-right: 16px;
 									}
 
 									.learn_skills_txt {
-										width: 18%;
+										width: 190px;
+										margin-right: 12px;
 									}
 								}
 							}
@@ -319,16 +324,16 @@
 
 			.project {
 				.wrapper {
-					padding-bottom: 50px;
+					padding-bottom: 60px;
 
 					.pj_container {
-						gap: 60px;
+						gap: 20px;
 						padding-top: 30px;
 						padding-left: 0;
 						padding-right: 0;
 
 						.pj_logoimg_box {
-							width: 30%;
+							width: 35%;
 
 							.logo_img {
 								width: 90%;
@@ -337,21 +342,21 @@
 
 						// ==== 프로젝트 소개 ====
 						.pj_description_box {
-							width: 70%;
+							width: 65%;
 							font-size: 18px;
 							line-height: 28px;
 
 							// 프로젝트 정보
 							.pj_infos {
 								.wid_block {
-									width: 300px;
+									width: 270px;
 								}
 
 								.info_block {
-									margin-bottom: 35px;
+									margin-bottom: 30px;
 
 									.info_t {
-										margin-bottom: 10px;
+										margin-bottom: 8px;
 									}
 								}
 							}
@@ -359,7 +364,7 @@
 							// 내가 구현한 기능 및 페이지
 							.pj_content {
 								.pj_underline {
-									margin: 20px auto 60px;
+									margin: 20px auto 50px;
 								}
 
 								.pj_features {
@@ -378,6 +383,10 @@
 											font-size: 18px;
 											line-height: 30px;
 
+											.details_imgbox {
+												width: 100%;
+											}
+
 											.troubleShooting_box {
 												.content {
 													font-size: 16px;
@@ -388,8 +397,12 @@
 									}
 								}
 
+								.pj_videobox {
+									width: 100%;
+								}
+
 								.linkbox {
-									padding: 25px 0 40px;
+									padding: 25px 0 30px;
 
 									.link_title {
 										font-size: 18px;
@@ -400,6 +413,309 @@
 											font-size: 18px;
 										}
 									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 640px) {
+	#Portfolio {
+		padding-top: 160px;
+
+		.section {
+			.article {
+				.wrapper {
+					padding: 0 30px 85px;
+
+					.underline {
+						margin: 0 auto 40px;
+					}
+
+					.list_container {
+						.list_block {
+							gap: 0;
+							padding: 25px 20px 18px;
+
+							.list_info {
+								.info_name {
+									margin-bottom: 6px;
+								}
+							}
+
+							.list_idid {
+								.idid {
+									gap: 9px;
+								}
+
+								.skills {
+									.learn_skills_txt {
+										width: 160px;
+										margin-right: 0;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.project {
+				.wrapper {
+					padding-bottom: 50px;
+
+					.pj_container {
+						gap: 30px;
+
+						.pj_logoimg_box {
+							width: 35%;
+
+							.logo_img {
+								width: 90%;
+							}
+						}
+
+						// ==== 프로젝트 소개 ====
+						.pj_description_box {
+							width: 65%;
+
+							// 프로젝트 정보
+							.pj_infos {
+								.info_block {
+									margin-bottom: 35px;
+
+									.info_t {
+										font-size: 20px;
+										margin-bottom: 10px;
+									}
+								}
+							}
+
+							// 내가 구현한 기능 및 페이지
+							.pj_content {
+								.pj_underline {
+									margin: 20px auto 60px;
+								}
+
+								.linkbox {
+									padding: 25px 0 35px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 850px) {
+	#Portfolio {
+		padding-top: 160px;
+
+		.section {
+			.article {
+				.wrapper {
+					padding: 0 70px 85px;
+
+					.underline {
+						margin: 0 auto 40px;
+					}
+
+					.list_container {
+						.list_block {
+							gap: 0;
+							padding: 25px 20px 18px;
+
+							.list_info {
+								.info_name {
+									margin-bottom: 6px;
+								}
+							}
+
+							.list_idid {
+								.idid {
+									gap: 9px;
+								}
+
+								.skills {
+									.learn_skills_txt {
+										width: 160px;
+										margin-right: 0;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.project {
+				.wrapper {
+					padding-bottom: 50px;
+
+					.pj_container {
+						gap: 30px;
+
+						.pj_logoimg_box {
+							width: 35%;
+
+							.logo_img {
+								width: 90%;
+							}
+						}
+
+						// ==== 프로젝트 소개 ====
+						.pj_description_box {
+							width: 65%;
+
+							// 프로젝트 정보
+							.pj_infos {
+								.info_block {
+									margin-bottom: 35px;
+
+									.info_t {
+										font-size: 20px;
+										margin-bottom: 10px;
+									}
+								}
+							}
+
+							// 내가 구현한 기능 및 페이지
+							.pj_content {
+								.pj_underline {
+									margin: 20px auto 60px;
+								}
+
+								.linkbox {
+									padding: 25px 0 35px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1024px) {
+	#Portfolio {
+		padding-top: 180px;
+
+		.section {
+			.article {
+				.wrapper {
+					padding: 0 20px 100px;
+
+					.underline {
+						margin: 0 auto 42px;
+					}
+
+					.list_container {
+						.list_block {
+							gap: 30px;
+							padding: 20px 10px;
+
+							.list_idid {
+								.idid {
+									gap: 5px;
+								}
+
+								.skills {
+									.learn_skills_txt {
+										width: 18%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.project {
+				.wrapper {
+					padding-bottom: 70px;
+
+					.pj_container {
+						gap: 60px;
+
+						.pj_logoimg_box {
+							width: 30%;
+						}
+
+						// ==== 프로젝트 소개 ====
+						.pj_description_box {
+							width: 70%;
+
+							.pj_infos {
+								.info_block {
+									margin-bottom: 40px;
+								}
+							}
+
+							// 내가 구현한 기능 및 페이지
+							.pj_content {
+								.linkbox {
+									padding: 25px 0 40px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1280px) {
+	#Portfolio {
+		padding-top: 185px;
+
+		.section {
+			.article {
+				.wrapper {
+					padding: 0 70px 120px;
+
+					.underline {
+						margin: 0 auto 50px;
+					}
+
+					.list_container {
+						.list_block {
+							padding: 30px;
+
+							.list_idid {
+								.idid {
+									gap: 8px;
+								}
+
+								.skills {
+									.learn_skills_txt {
+										width: 120px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.project {
+				.wrapper {
+					padding-bottom: 90px;
+
+					.pj_container {
+						// ==== 프로젝트 소개 ====
+						.pj_description_box {
+							// 내가 구현한 기능 및 페이지
+							.pj_content {
+								.linkbox {
+									padding: 25px 0 30px;
 								}
 							}
 						}

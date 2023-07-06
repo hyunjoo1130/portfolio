@@ -43,14 +43,18 @@ const Topbtnbox = styled.div`
 	align-items: center;
 	justify-content: center;
 
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	background-color: #ccc;
 	border-radius: 50%;
 
 	opacity: ${props => (props.handleBtn ? '50%' : '0%')};
 	transition: all ease 0.2s;
 	cursor: pointer;
+	@media (min-width: 450px) {
+		width: 60px;
+		height: 60px;
+	}
 `;
 
 const Topbtn = styled.button`

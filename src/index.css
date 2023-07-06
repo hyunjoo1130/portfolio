@@ -46,6 +46,18 @@ a {
 
 @media (min-width: 450px) {
 	.default_padding {
+		padding: 0 20px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.default_padding {
+		padding: 0 180px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.default_padding {
 		padding: 0 200px;
 	}
 }
