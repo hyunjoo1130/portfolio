@@ -5,13 +5,13 @@ function Footer() {
 	return (
 		<FooterContainer>
 			<FooterWrapper>
-				<div className="leftBox">
+				<LeftBox>
 					<div>
 						<LeftTitle>OH HYUN JOO PORTFOLIO</LeftTitle>
 						<LeftSubTitle>Front-end Developer</LeftSubTitle>
 						<LeftTxt>쓸모있는 기술과 가치로 사람과, 세상과 연결되자</LeftTxt>
 					</div>
-				</div>
+				</LeftBox>
 				<RightBox>
 					<LogoBox>
 						<LogoLink>
@@ -51,23 +51,26 @@ const FooterWrapper = styled.div`
 	@media (min-width: 450px) {
 		display: flex;
 		justify-content: space-between;
+		text-align: left;
 	}
 `;
 
+const LeftBox = styled.div``;
+
 const LeftTitle = styled.p`
 	font-size: 18px;
+	font-weight: 700;
 	@media (min-width: 450px) {
 		font-size: 24px;
-		font-weight: 700;
 		margin-bottom: 3px;
 	}
 `;
 
 const LeftSubTitle = styled.p`
 	font-size: 18px;
+	font-weight: 400;
 	@media (min-width: 450px) {
 		font-size: 24px;
-		font-weight: 400;
 	}
 `;
 
@@ -77,6 +80,8 @@ const LeftTxt = styled.p`
 	margin-bottom: 20px;
 	@media (min-width: 450px) {
 		margin-top: 50px;
+		margin-bottom: 0;
+		font-size: 16px;
 	}
 `;
 

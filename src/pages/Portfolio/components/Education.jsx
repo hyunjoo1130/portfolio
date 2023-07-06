@@ -25,7 +25,7 @@ function Education() {
 								<p className="details">41기 ‘비타민상’ 수상 / 부트캠프 홍보용 개인인터뷰 선발</p>
 							</div>
 							<div className="skills">
-								<span className="skills_txt pj_skills_txt">학습언어</span>
+								<span className="skills_txt learn_skills_txt">학습언어</span>
 								<span className="skills_list">
 									HTML / CSS / JavaScript / React / Git / GitHub
 									<span className="next_line">Sass / Styled Component / Redux</span>
@@ -46,7 +46,7 @@ function Education() {
 								<p className="details">기획(UI 디자인설계 / UX 전략수립) 및 개발</p>
 							</div>
 							<div className="skills">
-								<span className="skills_txt pj_skills_txt">학습언어</span>
+								<span className="skills_txt learn_skills_txt">학습언어</span>
 								<span className="skills_list">
 									Adobe Photoshop / Adobe Illustrator
 									<span className="next_line">HTML / CSS / JavaScript / JQuery</span>
