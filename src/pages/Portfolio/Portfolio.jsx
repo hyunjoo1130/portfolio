@@ -3,6 +3,7 @@ import './Portfolio.scss';
 import Work from './components/Work';
 import Education from './components/Education';
 import Project from './components/Project';
+import TopBtn from '../../components/TopBtn';
 
 function Portfolio() {
 	return (
@@ -19,6 +20,7 @@ function Portfolio() {
 				{/* ⭐️ Project ⭐️ */}
 				<Project />
 			</section>
+			<TopBtn />
 		</div>
 	);
 }

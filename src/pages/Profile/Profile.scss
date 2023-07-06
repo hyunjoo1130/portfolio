@@ -4,13 +4,16 @@
 		flex-direction: column;
 		align-items: center;
 		gap: 38px;
-		padding-top: 40px;
-		padding-bottom: 75px;
+		padding-top: 110px;
+		padding-bottom: 70px;
+		padding-right: 50px;
+		padding-left: 50px;
+		margin: 0;
 
 		.profile_imgbox {
-			width: 270px;
-			height: 270px;
-			border: 10px solid #dddad3;
+			width: 230px;
+			height: 230px;
+			border: 8px solid #dddad3;
 			border-radius: 50%;
 			overflow: hidden;
 
@@ -23,25 +26,50 @@
 			text-align: center;
 
 			.profile_txt {
+				font-size: 27px;
 				font-weight: 700;
 				margin-bottom: 7px;
 			}
 		}
 	}
 
+	@media (min-width: 450px) {
+		.profile_section1 {
+			padding-top: 120px;
+			padding-right: 200px;
+			padding-left: 200px;
+
+			.profile_imgbox {
+				width: 270px;
+				height: 270px;
+				border: 10px solid #dddad3;
+			}
+
+			.profile_txtbox {
+				.profile_txt {
+					font-size: 40px;
+				}
+			}
+		}
+	}
+
 	.profile_section2 {
 		.profile_section2_wrapper {
-			padding-left: 80px;
-			padding-right: 80px;
+			padding-left: 10px;
+			padding-right: 10px;
 
 			.info_container {
 				display: flex;
-				justify-content: space-between;
-				padding-top: 80px;
-				padding-bottom: 60px;
+				flex-direction: column;
+				padding-top: 60px;
+				padding-bottom: 50px;
+				padding-left: 10px;
+				padding-right: 10px;
 
 				.titlebox {
 					.title {
+						margin-bottom: 10px;
+						font-size: 28px;
 						font-weight: 700;
 						letter-spacing: -1px;
 					}
@@ -49,22 +77,24 @@
 
 				.infobox {
 					display: flex;
-					justify-content: space-between;
-					gap: 80px;
-					font-size: 20px;
+					flex-direction: column;
+					gap: 0px;
 					padding-top: 14px;
+					font-size: 16px;
 
 					.info_block {
 						display: flex;
-						margin-bottom: 25px;
+						margin-bottom: 16px;
 
 						.info_q {
-							width: 100px;
+							width: 90px;
+							font-size: 18px;
 							font-weight: 700;
 						}
 
 						.info_r {
 							font-weight: 500;
+							font-size: 16px;
 						}
 
 						.email_r_box {
@@ -77,18 +107,20 @@
 			}
 
 			.pr_container {
-				margin-left: 10px;
-				padding-top: 90px;
-				padding-bottom: 70px;
+				margin-left: 0;
+				padding-left: 10px;
+				padding-right: 10px;
+				padding-top: 60px;
+				padding-bottom: 50px;
 
 				.pr_title {
-					font-size: 24px;
+					font-size: 18px;
 					font-weight: 700;
-					margin-bottom: 40px;
+					margin-bottom: 20px;
 				}
 
 				.pr_txt {
-					font-size: 20px;
+					font-size: 16px;
 					font-weight: 500;
 					opacity: 0.9;
 				}
@@ -104,6 +136,61 @@
 				.pr_txt2 {
 					p {
 						margin-bottom: 7px;
+					}
+				}
+			}
+		}
+	}
+
+	@media (min-width: 450px) {
+		.profile_section2 {
+			.profile_section2_wrapper {
+				padding-left: 80px;
+				padding-right: 80px;
+
+				.info_container {
+					flex-direction: row;
+					justify-content: space-between;
+					padding-top: 80px;
+					padding-bottom: 60px;
+
+					.titlebox {
+						.title {
+							margin-bottom: 0;
+						}
+					}
+
+					.infobox {
+						flex-direction: row;
+						justify-content: space-between;
+						gap: 80px;
+						font-size: 20px;
+
+						.info_block {
+							margin-bottom: 25px;
+
+							.info_q {
+								width: 80px;
+							}
+
+							.info_r {
+								font-size: 20px;
+							}
+						}
+					}
+				}
+
+				.pr_container {
+					padding-top: 90px;
+					padding-bottom: 70px;
+
+					.pr_title {
+						font-size: 24px;
+						margin-bottom: 40px;
+					}
+
+					.pr_txt {
+						font-size: 20px;
 					}
 				}
 			}

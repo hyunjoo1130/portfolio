@@ -1,186 +1,384 @@
 #Portfolio {
-  margin: 0 50px;
-  padding-top: 120px;
-  padding-bottom: 60px;
+	margin: 0 50px;
+	padding-top: 160px;
+	padding-bottom: 80px;
 }
 #Portfolio .section .article .wrapper {
-  padding: 0 70px 200px;
+	padding: 0 70px 160px;
 }
 #Portfolio .section .article .wrapper .title_box {
-  margin: 10px auto;
-  text-align: center;
+	margin: 10px auto;
+	text-align: center;
 }
 #Portfolio .section .article .wrapper .underline {
-  width: 200px;
-  margin: 0 auto 60px;
-  border: 1px solid #232323;
-  opacity: 0.1;
+	width: 200px;
+	margin: 0 auto 60px;
+	border: 1px solid #232323;
+	opacity: 0.1;
 }
 #Portfolio .section .article .wrapper .list_container .list_block {
-  display: flex;
-  justify-content: flex-start;
-  padding: 30px;
+	display: flex;
+	justify-content: flex-start;
+	padding: 30px;
 }
 #Portfolio .section .article .wrapper .list_container .list_block .list_info {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  width: 35%;
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	width: 35%;
 }
 #Portfolio .section .article .wrapper .list_container .list_block .list_info .info_name {
-  margin-bottom: 4px;
-  font-size: 24px;
-  font-weight: 700;
+	margin-bottom: 4px;
+	font-size: 24px;
+	font-weight: 700;
 }
 #Portfolio .section .article .wrapper .list_container .list_block .list_info .info_detail {
-  margin-bottom: 2px;
-  font-size: 16px;
-  font-weight: 500;
+	margin-bottom: 2px;
+	font-size: 16px;
+	font-weight: 500;
 }
 #Portfolio .section .article .wrapper .list_container .list_block .list_info .gray {
-  opacity: 0.5;
+	opacity: 0.5;
 }
 #Portfolio .section .article .wrapper .list_container .list_block .list_idid {
-  width: 65%;
-  font-size: 18px;
-  font-weight: 400;
+	width: 65%;
+	font-size: 18px;
+	font-weight: 400;
 }
 #Portfolio .section .article .wrapper .list_container .list_block .list_idid .idid {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  margin-bottom: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	margin-bottom: 16px;
 }
 #Portfolio .section .article .wrapper .list_container .list_block .list_idid .skills {
-  display: flex;
+	display: flex;
 }
 #Portfolio .section .article .wrapper .list_container .list_block .list_idid .skills .skills_txt {
-  margin-right: 16px;
-  font-weight: 700;
+	margin-right: 16px;
+	font-weight: 700;
 }
-#Portfolio .section .article .wrapper .list_container .list_block .list_idid .skills .skills_list .next_line {
-  display: inline-block;
-  margin-top: 3px;
+#Portfolio
+	.section
+	.article
+	.wrapper
+	.list_container
+	.list_block
+	.list_idid
+	.skills
+	.skills_list
+	.next_line {
+	display: inline-block;
+	margin-top: 3px;
 }
-#Portfolio .section .article .wrapper .list_container .list_block .list_idid .skills .pj_skills_txt {
-  width: 18%;
+#Portfolio
+	.section
+	.article
+	.wrapper
+	.list_container
+	.list_block
+	.list_idid
+	.skills
+	.learn_skills_txt {
+	width: 18%;
 }
 #Portfolio .section .project .wrapper {
-  padding: 0;
+	padding: 0;
 }
 #Portfolio .section .project .wrapper .pj_container {
-  display: flex;
-  justify-content: space-between;
-  gap: 60px;
-  padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	gap: 60px;
+	padding-top: 30px;
 }
 #Portfolio .section .project .wrapper .pj_container .pj_logoimg_box {
-  width: 30%;
+	width: 30%;
 }
 #Portfolio .section .project .wrapper .pj_container .pj_logoimg_box .logo_img {
-  width: 90%;
+	width: 90%;
 }
 #Portfolio .section .project .wrapper .pj_container .pj_description_box {
-  width: 70%;
-  font-size: 18px;
-  line-height: 28px;
+	width: 70%;
+	font-size: 18px;
+	line-height: 28px;
 }
 #Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_infos {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 #Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_infos .wid_block {
-  width: 300px;
+	width: 300px;
 }
 #Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_infos .info_block {
-  margin-bottom: 35px;
+	margin-bottom: 35px;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_infos .info_block .info_t {
-  color: #232323;
-  font-weight: 700;
-  margin-bottom: 10px;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_infos
+	.info_block
+	.info_t {
+	color: #232323;
+	font-weight: 700;
+	margin-bottom: 10px;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_infos .info_block .info_d {
-  font-weight: 400;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_infos
+	.info_block
+	.info_d {
+	font-weight: 400;
 }
 #Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_underline {
-  margin: 20px auto 60px;
-  border: 1px solid #232323;
-  opacity: 0.1;
+	margin: 20px auto 60px;
+	border: 1px solid #232323;
+	opacity: 0.1;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_features .feature_box .feature_name {
-  font-size: 24px;
-  font-weight: 700;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_features
+	.feature_box
+	.feature_name {
+	font-size: 24px;
+	font-weight: 700;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_features .feature_box .mypoint {
-  margin: 28px 0;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_features
+	.feature_box
+	.mypoint {
+	margin: 28px 0;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_features .feature_box .mypoint .point_title {
-  color: rgb(228, 16, 16);
-  font-weight: 700;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_features
+	.feature_box
+	.mypoint
+	.point_title {
+	color: rgb(228, 16, 16);
+	font-weight: 700;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_features .feature_box .mypoint .point_desc {
-  font-weight: 700;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_features
+	.feature_box
+	.mypoint
+	.point_desc {
+	font-weight: 700;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_features .feature_box .feature_details {
-  margin-bottom: 25px;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_features
+	.feature_box
+	.feature_details {
+	margin-bottom: 25px;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_features .feature_box .feature_details .details_title {
-  font-weight: 700;
-  padding-bottom: 5px;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_features
+	.feature_box
+	.feature_details
+	.details_title {
+	font-weight: 700;
+	padding-bottom: 5px;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_features .feature_box .feature_details .troubleShooting_box .title {
-  margin: 10px 0 5px;
-  font-weight: 700;
-  font-style: italic;
-  color: #f96400;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_features
+	.feature_box
+	.feature_details
+	.troubleShooting_box
+	.title {
+	margin: 10px 0 5px;
+	font-weight: 700;
+	font-style: italic;
+	color: #f96400;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_features .feature_box .feature_details .troubleShooting_box .content {
-  margin-bottom: 10px;
-  font-size: 16px;
-  line-height: 24px;
-  opacity: 0.6;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_features
+	.feature_box
+	.feature_details
+	.troubleShooting_box
+	.content {
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	opacity: 0.6;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_features .feature_box .feature_details .troubleShooting_box .content .content_title {
-  font-weight: 700;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_features
+	.feature_box
+	.feature_details
+	.troubleShooting_box
+	.content
+	.content_title {
+	font-weight: 700;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_features .feature_box .feature_details .troubleShooting_box .content .content_desc {
-  margin: 5px 0;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_features
+	.feature_box
+	.feature_details
+	.troubleShooting_box
+	.content
+	.content_desc {
+	margin: 5px 0;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_features .feature_box .feature_details .details_imgbox {
-  width: 90%;
-  padding-top: 12px;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_features
+	.feature_box
+	.feature_details
+	.details_imgbox {
+	width: 90%;
+	padding-top: 12px;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_features .feature_box .feature_details .details_imgbox .details_img {
-  width: 100%;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_features
+	.feature_box
+	.feature_details
+	.details_imgbox
+	.details_img {
+	width: 100%;
 }
 #Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_videobox {
-  width: 90%;
-  height: 300px;
-  margin-top: 5px;
+	width: 90%;
+	height: 300px;
+	margin-top: 5px;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_videobox .video_title {
-  font-weight: 700;
-  padding-bottom: 10px;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_videobox
+	.video_title {
+	font-weight: 700;
+	padding-bottom: 10px;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .pj_videobox .pj_video {
-  width: 100%;
-  height: 100%;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.pj_videobox
+	.pj_video {
+	width: 100%;
+	height: 100%;
 }
 #Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .linkbox {
-  padding: 70px 0 40px;
+	padding: 70px 0 40px;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .linkbox .link_title {
-  font-weight: 700;
-  padding-bottom: 10px;
-  padding-right: 8px;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.linkbox
+	.link_title {
+	font-weight: 700;
+	padding-bottom: 10px;
+	padding-right: 8px;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .linkbox .links {
-  display: inline-block;
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.linkbox
+	.links {
+	display: inline-block;
 }
-#Portfolio .section .project .wrapper .pj_container .pj_description_box .pj_content .linkbox .links .link {
-  margin-left: 12px;
-  font-size: 16px;
-  color: #f96400;
-  text-decoration: underline;
-}/*# sourceMappingURL=Portfolio.css.map */
+#Portfolio
+	.section
+	.project
+	.wrapper
+	.pj_container
+	.pj_description_box
+	.pj_content
+	.linkbox
+	.links
+	.link {
+	margin-left: 12px;
+	font-size: 16px;
+	color: #f96400;
+	text-decoration: underline;
+} /*# sourceMappingURL=Portfolio.css.map */
